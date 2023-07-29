@@ -36,7 +36,7 @@ const TrackCard: React.FC<TrackCardProps> = ({ track }) => {
                             <Link href={trackUrl}>{title}</Link>
                         </p>
                     </span>
-                    <Menu className={'flex-none text-md inline-block'} options={['Copy Link', 'Download']} linkToCopy={`${baseURL}${trackUrl}`}/>
+                    <Menu className={'flex-none text-md inline-block'} options={['Copy Link', 'Download']} linkToCopy={`${baseURL}${trackUrl}`} songname={""}/>
                 </div>
                 <div className={'space-x-1 max-w-full text-sm truncate'}>
                     <p className={'text-secondary dark:text-secondary truncate max-w-full min-w-0'}>

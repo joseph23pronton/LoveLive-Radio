@@ -44,7 +44,7 @@ const AlbumCard: React.FC<AlbumCardProps> = ({ album, lines }) => {
                                     <Link href={`/cds/[id]`} as={`/cds/${album.id}`} >{title}</Link>
                                 </p>
                             </span>
-                            <Menu className={'flex-none text-md inline-block'} options={['Copy Link']} linkToCopy={`${baseURL}/cds/${album.id}`}/>
+                            <Menu className={'flex-none text-md inline-block'} options={['Copy Link']} linkToCopy={`${baseURL}/cds/${album.id}`} songname={""}/>
                         </div>
                         { subtitle? <p className={'dark:text-secondary text-xs text-secondary font-light tracking-wide truncate'}>{subtitle}</p> : null }
                         <div>

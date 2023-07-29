@@ -34,7 +34,7 @@ const Menu: React.FC<CollapsibleMenuProps> = (props) => {
             <button onClick={() => {setCollapsed(!collapsed)}} className={'inline-block box-border'}>
                 <InlineIcon className={'text-primary'} icon={"ph:dots-three-outline-fill"}/>
             </button>
-            <MenuContents innerRef={wrapperRef} collapsed={collapsed} {...props}/>
+            <MenuContents songs={[]} innerRef={wrapperRef} collapsed={collapsed} {...props}/>
         </span>
     )
 }
