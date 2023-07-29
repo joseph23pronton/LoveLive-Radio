@@ -1,0 +1,58 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/RXgv2t4eeVwp8FjzwpK9H/_buildManifest.js",
+    "static/RXgv2t4eeVwp8FjzwpK9H/_ssgManifest.js",
+    "static/RXgv2t4eeVwp8FjzwpK9H/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/chunks/675-f5bb6e9a9044bfd5.js",
+      "static/chunks/764-76cc39bdfa38ddac.js",
+      "static/chunks/pages/index-b54bae8b6129e143.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/chunks/pages/404-1b47178f7037e8d3.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/css/3f3befaa27b218ee.css",
+      "static/chunks/pages/_app-e9cb973cf29e78fc.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/chunks/pages/_error-2280fa386d040b66.js"
+    ],
+    "/cds/[id]": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/chunks/675-f5bb6e9a9044bfd5.js",
+      "static/chunks/764-76cc39bdfa38ddac.js",
+      "static/chunks/pages/cds/[id]-db37c3a8d5ad9e81.js"
+    ],
+    "/cds/all": [
+      "static/chunks/webpack-9500f8215fd44a81.js",
+      "static/chunks/framework-6e4ba497ae0c8a3f.js",
+      "static/chunks/main-c7e30e1aff19cdb7.js",
+      "static/chunks/675-f5bb6e9a9044bfd5.js",
+      "static/chunks/764-76cc39bdfa38ddac.js",
+      "static/chunks/pages/cds/all-2857e918c3e968df.js"
+    ]
+  },
+  "ampFirstPages": []
+}
