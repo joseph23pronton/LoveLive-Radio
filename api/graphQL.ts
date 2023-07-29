@@ -1,4 +1,4 @@
-import {API_URL} from "./creds";
+import {API_URL} from "./creds.js";
 
 export default async function graphQL (query) {
     try {

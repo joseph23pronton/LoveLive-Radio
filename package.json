@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@iconify/react": "^3.0.1",
+    "@iconify/react": "^3.2.2",
     "axios": "^0.24.0",
     "axios-hooks": "^3.0.0",
     "moment": "^2.29.1",
@@ -28,5 +28,10 @@
     "eslint-config-next": "12.0.3",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
-  }
+  },
+  "description": "![Logo](https://cdn.discordapp.com/attachments/547571609708527637/910696439246639164/unknown.png)\r # Raburadio\r This is the frontend repository for Raburadio, a website to archive all the songs in the Love Live! franchise.\r A re-write of the PHP-based [LLArchive](https://github.com/HuzzNZ/LLArchive). For the backend, please see [Raburadio-Backend](https://github.com/HuzzNZ/Raburadio-Backend).\r ## Website Preview\r ### Light Mode\r ![Showcase](https://cdn.discordapp.com/attachments/547571609708527637/910701960909443112/showcase_1.png)",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }

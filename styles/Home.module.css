@@ -107,6 +107,19 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+/* Add this CSS to handle the collapse animation */
+.sidebar.collapsed {
+  width: 60px; /* Change the collapsed width as desired */
+}
+
+.sidebar .logo-container {
+  transition: width 0.3s; /* Add a smooth transition effect */
+}
+
+.sidebar .logo-container.collapsed {
+  width: 0; /* Hide the logo container when collapsed */
+}
+
 
 @media (max-width: 600px) {
   .grid {

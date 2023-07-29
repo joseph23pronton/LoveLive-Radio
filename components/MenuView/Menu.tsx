@@ -6,6 +6,7 @@ export interface MenuProps {
     options: string[]
     linkToCopy?: string
     fullAlbumMode?: boolean
+    songname: string
 }
 
 interface CollapsibleMenuProps extends MenuProps {
